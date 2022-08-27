@@ -130,3 +130,42 @@ img {
  
     background-color: #00000022;
 }
+
+section{
+    width: 100%;
+ 
+}
+scroll-container{
+    scroll-behavior: smooth;
+}
+.articulo{
+    display: flex;
+    align-items: center;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10rem;
+}
+.home__details{
+    width: 50%;
+}
+.home__image{
+width: 50%;
+}
+
+
+
+.boton{
+    display: inline-block;
+    background-color: #8f3d38;
+    color: white;
+    text-align: center;
+    padding: 1rem 3rem;
+    font-family: var(--fuenteHeading);
+    font-weight: bold;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    border: none;
+}
