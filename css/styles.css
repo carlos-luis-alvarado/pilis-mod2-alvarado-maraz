@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Constantes CSS */
+:root{
+    /*Paleta de colores*/
+    --color-azul: #335c67;
+    --color-crema: #fff3b0;
+    --color-naranja: #e09f3e;
+    --color-rojo: #9e2a2b;
+    --color-bordo: #540b0e;
+
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+.container {
+    max-width: 120rem;
+    width: 90%;
+    /*alternativa a las dos lineas de arriba width:min(90%,120rem)*/
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 4.8rem;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 3.2rem;
+}
+
+h4 {
+    font-size: 2.4rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.centrar-texto {
+    text-align: center;
+}
+
+/*Header*/
+
+.header {
+
+    background-image: url(/img/fondo-vino2.jpg);
+    height: 60rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-bottom: 10rem;
+}
+
+
+.header__texto {
+    text-align: center;
+    color: white;
+    margin-top: 5rem;
+}
+
+
+.container-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+.logo {
+    color: white;
+}
+
+.logo__nombre {
+    font-weight: 400;
+}
+
+.logo__bold {
+    font-weight: 700;
+}
+
+.link {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 1rem;
+    margin-left: 2rem;
+}
+.link:hover{
+ 
+    background-color: #00000022;
+}
