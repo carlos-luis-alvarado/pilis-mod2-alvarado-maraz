@@ -155,6 +155,17 @@ scroll-container{
 width: 50%;
 }
 
+.event{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10rem;
+}
+.event__details{
+    width: 50%;
+}
+.event__video{
+    height: 50%;
+}
 
 
 .boton{
