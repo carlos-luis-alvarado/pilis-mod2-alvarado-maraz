@@ -192,3 +192,58 @@ width: 50%;
 .us__image{
 width: 50%;
 }
+
+.registration{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10rem;
+}
+.registration__details{
+    width: 50%;
+}
+.registration__form{
+    width: 50%;
+}
+
+.fieldset{
+    padding: 1rem;
+    border: 2px solid;
+}
+legend{
+    background-color: #000000;
+    padding: .5rem;
+    color: white;
+    border-radius: .25rem;
+}
+
+.formulario{
+    margin: 0 auto;
+    width: 90%;
+    
+}
+
+.campo{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.campo__label{
+    flex: 0 0 9rem;
+    text-align: right;
+    padding-right: 2rem;
+}
+.campo__field{
+    flex: 1;
+    border: 1px solid var(--gris);
+    padding: 1rem;
+}
+.campo__field:focus{
+    background-color: #8f3d38;
+    color: white;
+}
+
+
+.campo__field--textarea{
+    height: 20rem;
+    resize: none;
+}
