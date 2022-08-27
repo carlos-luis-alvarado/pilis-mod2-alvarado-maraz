@@ -26,6 +26,8 @@ html {
 
 body {
     font-size: 1.6rem;
+    background-color: var(--color-bordo);
+    color: white;
 }
 
 .container {
@@ -42,7 +44,8 @@ a {
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5 {
     
     line-height: 1.2;
 }
@@ -62,6 +65,7 @@ h3 {
 h4 {
     font-size: 2.4rem;
 }
+
 
 img {
     max-width: 100%;
@@ -170,7 +174,7 @@ width: 50%;
 
 .boton{
     display: inline-block;
-    background-color: #8f3d38;
+    background-color: var(--color-naranja);
     color: white;
     text-align: center;
     padding: 1rem 3rem;
@@ -238,7 +242,8 @@ legend{
     padding: 1rem;
 }
 .campo__field:focus{
-    background-color: #8f3d38;
+    /*background-color: #8f3d38;*/
+    background-color: var(--color-crema);
     color: white;
 }
 
@@ -264,9 +269,14 @@ legend{
 }
 
 .whatsapp{
-    color: green;
-    font-size:24px
+    color: green !important;
+    font-size:40px !important;
 }
 footer{
     padding: 2rem 0;
 }
+
+#contact h4 a{
+    color:white ;
+}
+
