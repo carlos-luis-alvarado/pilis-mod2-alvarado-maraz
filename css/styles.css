@@ -275,7 +275,11 @@ legend{
 footer{
     padding: 2rem 0;
 }
-
+#contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 #contact h4 a{
     color:white ;
 }
