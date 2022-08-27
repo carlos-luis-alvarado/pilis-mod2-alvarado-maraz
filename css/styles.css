@@ -180,3 +180,15 @@ width: 50%;
     text-transform: uppercase;
     border: none;
 }
+
+.us{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10rem;
+}
+.us__details{
+    width: 50%;
+}
+.us__image{
+width: 50%;
+}
