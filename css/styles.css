@@ -247,3 +247,26 @@ legend{
     height: 20rem;
     resize: none;
 }
+
+.climate{
+    margin: 0 auto;
+    height: 30rem;
+    display: flex;
+
+}
+.climate__card{
+    background-color: var(--color-naranja);
+    text-align: center;
+    padding: 1rem;
+    width: 20%;
+    margin: 1rem;
+    border-radius: 2rem;
+}
+
+.whatsapp{
+    color: green;
+    font-size:24px
+}
+footer{
+    padding: 2rem 0;
+}
